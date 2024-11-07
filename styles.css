@@ -43,3 +43,60 @@
     from { opacity: 0; }
     to { opacity: 1; }
 }
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+}
+
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container h2 {
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
