@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #007bff; 
+    color: white; 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+}
+.footer-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: fadeIn 1.5s ease-in;
+}
+
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.content img {
+    width: 120px;
+    height: auto;
+    margin: 10px;
+}
+
+
+.card {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
